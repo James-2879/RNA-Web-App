@@ -1,0 +1,71 @@
+/* Various changes to exisiting UI classes. */
+
+/* Change appearance of disabled tab panel elements. */
+.nav li a.disabled {
+background-color: #F1F1F1 !important;
+color: #333 !important;
+cursor: not-allowed !important;
+border-color: #F1F1F1 !important;
+} 
+
+/* Change color of the 'selected' bar at the top of a tab panel. */
+.nav-tabs-custom .box {
+  border-top: outset #00B5C8;
+}
+
+/* Change color of the top box border. */
+.box {
+  border-top: outset #D9D9D9;
+}
+
+/* Change color of bottom part of the sidebar. */
+.skin-black .main-sidebar {
+background: #F2F2F2;
+}
+
+/* Change color of main parts of the sidebar. */
+.skin-black .sidebar {
+color: #070707; /* this is text color of stuff in the sidebar */
+background: #FFFFFF; /* background of the active menu option */
+}
+
+/* Change color of active parts of the sidebar. */
+.skin-black .sidebar-menu>li.active>a, .skin-black .sidebar-menu>li:hover>a {
+    color: #000000; /* this is the text color menu items are highlighted with */
+    background: #D8D8D8; /* this is the background color menu items are highlighted with */
+    border-left-color: #000000; /* border on left of menu option on hover */
+}
+
+/* Change color of inactive parts of the sidebar. */
+.skin-black .sidebar-menu>li>a {
+background: #F2F2F2;  /* background color of unselected menu options */
+color: #5F5F5F; /* text color of unselected menu options */
+}
+
+/* Removes top margin to allow for better implementation of custom right-hand sidebar. */
+.no-margin-top {
+  margin: 0px !important;
+}
+
+/* I don't think these altered classes are in use currently.
+Essentially change the default colors of the existing switch classes depending on state. */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger,
+                                       .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger {
+                                        background: #0047AB;
+                                        color: white;
+                                        }
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info,
+                                       .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info {
+                                        background: #00B5C8;
+                                        color: white;
+                                        }
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning,
+                                       .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning {
+                                        background: #0047AB;
+                                        color: white;
+                                        }
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-secondary,
+                                       .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-secondary {
+                                        background: #00B5C8;
+                                        color: white;
+                                        }

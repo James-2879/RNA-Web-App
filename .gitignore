@@ -1,0 +1,9 @@
+/data
+/scripts/venv
+/scripts/ms_peptides.egg-info
+/scripts/dist
+/scripts/build
+# /scripts/client.py
+# /scripts
+/scripts/api_env_vars.py
+.env

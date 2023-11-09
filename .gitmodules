@@ -1,0 +1,3 @@
+[submodule "scripts/sql_rnaseq_fetcher"]
+	path = scripts/sql_rnaseq_fetcher
+	url = https://git.organisation.com/James.Swift/sql_rnaseq_fetcher
